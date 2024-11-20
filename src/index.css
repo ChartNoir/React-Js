@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0.5px 0.5px 150px #252525;
+}
+
+.position {
+  border: 1px solid black;
+  display: flex;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+@font-face {
+  font-family: "en10";
+  src: url("./assets/Madison Bright.otf");
+}
+@font-face {
+  font-family: " en7";
+  src: url("./assets/Jamesoon-Regular.ttf");
+}
+@font-face {
+  font-family: "en1";
+  src: url("./assets/AckorDemo-Regular.ttf");
+}
